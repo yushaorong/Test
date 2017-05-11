@@ -18,5 +18,5 @@ def read_data(sql):
 #daily = pd.read_excel('D:/Work/Git/dqInvestExplorerPython.git/50etf_smart_alpha_backtester.xlsx', 'HistoricalData')[1:]
 sql = 'select * from histdate'
 data = read_data(sql)
-
+print data
 
